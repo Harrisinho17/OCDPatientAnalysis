@@ -1,3 +1,5 @@
+-- What is the most common Obsesison type & its's respective Average Obsession Score
+
 Select
 "Compulsion Type",
 count("Patient ID") as patient_count,
@@ -6,4 +8,3 @@ from ocd_patient_data
 group by 1
 Order by 2;
 
--- What is the most common Obsesison type & its's respective Average Obsession Score

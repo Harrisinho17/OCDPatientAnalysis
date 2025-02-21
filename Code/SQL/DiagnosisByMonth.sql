@@ -1,4 +1,4 @@
--- Alter column and truncate date data to find number of disnosis dates by month
+-- Alter column and truncate date data to find number of disnosis by month
 
 ALTER TABLE ocd_patient_data 
 ALTER COLUMN "OCD Diagnosis Date" TYPE DATE 
