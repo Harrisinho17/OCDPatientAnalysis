@@ -37,7 +37,7 @@ Order by
 -- 4. Medication demographics
 SELECT
     medications,
-    --age,
+    age,
     gender,
     ethnicity,
     marital_status,
@@ -46,7 +46,7 @@ FROM
     ocd_patient_data
 GROUP BY
     medications,
-    --age,
+    age,
     gender,
     ethnicity,
     marital_status
