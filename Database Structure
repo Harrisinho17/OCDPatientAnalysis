@@ -1,0 +1,17 @@
+	1.	patient_id (Integer): Unique identifier for each patient.
+	2.	age (Integer): Age of the patient at the time of data collection.
+	3.	gender (Text): Gender identity of the patient.
+	4.	ethnicity (Text): Ethnic background of the patient.
+	5.	marital_status (Text): Marital status (e.g., Single, Married, Divorced).
+	6.	education_level (Text): Highest level of education completed.
+	7.	ocd_diagnosis_date (Date): Date when OCD was diagnosed.
+	8.	duration_of_symptoms_months (Integer): Duration in months that symptoms have been present.
+	9.	previous_diagnoses (Text): Any previous mental health diagnoses (e.g., PTSD, MDD).
+	10.	family_history_of_ocd (Text): Indicates whether OCD runs in the family (Yes/No).
+	11.	obsession_type (Text): Type of obsessive symptoms experienced (e.g., contamination, harm).
+	12.	compulsion_type (Text): Type of compulsive behavior exhibited (e.g., checking, washing).
+	13.	ybocs_obsession_score (Integer): Severity score for obsessions (Y-BOCS scale).
+	14.	ybocs_compulsion_score (Integer): Severity score for compulsions (Y-BOCS scale).
+	15.	depression_diagnosis (Text): Whether the patient has a depression diagnosis (Yes/No).
+	16.	anxiety_diagnosis (Text): Whether the patient has an anxiety diagnosis (Yes/No).
+	17.	medications (Text): Medications prescribed to the patient (e.g., SSRI, SNRI, Benzodiazepines).
